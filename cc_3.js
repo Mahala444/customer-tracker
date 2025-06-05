@@ -15,3 +15,11 @@ const customers = [
     purchases: ["Tablet", "Case"]
   }
 ];
+
+customers.push({
+  name: "David",
+  email: "david@example.com",
+  purchases: ["Camera"]
+});
+
+customers.shift();
