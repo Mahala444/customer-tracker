@@ -23,3 +23,6 @@ customers.push({
 });
 
 customers.shift();
+
+customers[0].email = "bobby.new@hotmail.com";
+customers[1].purchases.push("Keyboard");
